@@ -105,7 +105,7 @@ Esta opção instrui Jenkins a obter seu Pipeline do Source Control Management (
 
 **Importante:** Tome o cuidado de utilizar o seu repositório para que tenha o acesso necessário para fazer alterações no futuro envolvendo credenciais para execução de webhooks;
 
-4.8 Ao final da tela no campo "Script Path" utilize a path **pipelines/Jenkinsfile** indicando o Jenkinsfile dentro do diretório pipelines;
+4.8 Ao final da tela no campo "Script Path" utilize a path **Jenkinsfile** indicando o Jenkinsfile dentro do diretório pipelines;
 
 4.8 Clique em Salvar para salvar seu novo Pipeline. Agora você está pronto para começar a criar seu [Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/);
 
