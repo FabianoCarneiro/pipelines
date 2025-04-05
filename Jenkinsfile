@@ -1,8 +1,11 @@
 pipeline {
     agent any
       tools {
-        nodejs 'recentNode' 
+        nodejs 'nodeRecent' 
       }
+    environment { 
+        CI = 'true'
+    }
     stages {
         stage('Build') {
             steps {
