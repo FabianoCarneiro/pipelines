@@ -9,7 +9,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'apt-get install libatomic1'
                 sh 'npm install'
             }
         }
